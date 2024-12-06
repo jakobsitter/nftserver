@@ -1,0 +1,15 @@
+{
+    "name": "blockchain-svg-fetcher",
+    "version": "1.0.0",
+    "description": "Fetch blockchain data and serve SVGs via Express",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "node src/server.js",
+      "fetch": "node src/fetcher.js"
+    },
+    "dependencies": {
+      "ethers": "^6.5.1",
+      "express": "^4.18.2"
+    }
+  }
+  
