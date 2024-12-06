@@ -4,12 +4,12 @@
     "description": "Fetch blockchain data and serve SVGs via Express",
     "main": "src/server.js",
     "scripts": {
-      "start": "node src/server.js",
-      "fetch": "node src/fetcher.js"
+        "start": "node src/server.js",
+        "fetch": "node src/fetcher.js"
     },
     "dependencies": {
-      "ethers": "^6.5.1",
-      "express": "^4.18.2"
+        "ethers": "^5.7.2",
+        "express": "^4.18.2",
+        "svg-path-bounds": "^1.0.2"
     }
-  }
-  
+}
